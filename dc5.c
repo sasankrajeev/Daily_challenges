@@ -10,7 +10,8 @@ int main(void) {
 	{
 		for(int j=0;j<5;j++)
 		{
-				scanf("%d",&a[i][j]);
+			cin >> a[i][j];
+				//scanf("%d",&a[i][j]);
 		}
 	}
 	if(a[2][2]==1)
@@ -30,7 +31,7 @@ int main(void) {
   }
 }
 }
-	
-	printf("%d",(count));
+	cout << count;
+// 	printf("%d",(count));
 	return 0;
 }
