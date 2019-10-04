@@ -1,6 +1,7 @@
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
+#include <bits/stdc++.h>
+#define ll long long
+using namespace std;
+
 
 int main(void) {
 	
@@ -10,7 +11,8 @@ int main(void) {
 	{
 		for(int j=0;j<5;j++)
 		{
-				scanf("%d",&a[i][j]);
+			cin >> a[i][j];
+// 				scanf("%d",&a[i][j]);
 		}
 	}
 	if(a[2][2]==1)
@@ -31,6 +33,7 @@ int main(void) {
 }
 }
 	
-	printf("%d",(count));
+// 	printf("%d",(count));
+	cout << count;
 	return 0;
 }
